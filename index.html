@@ -3,88 +3,59 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Evgeny's personal site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <title>Evgeny Bunin</title>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="mypic.png" width="300" alt="evgeny profile picture"></td>
-      <td>
-        <h1>Evgeny Bunin</h1>
-        <p><em>Web developer</em></p>
-        <p>I am a frontend developer. I love coffee and chocolate. I'm gonna complete the Udemy training - "The complete 2020 Web development Bootcamp".</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Books</h3>
-  <ul>
-    <li><a href="https://www.goodreads.com/author/show/135171.Jon_Duckett">John Duckett.</a> HTML & CSS: Design and Build Web Sites</li>
-    <li><a href="https://www.goodreads.com/author/show/50547.David_Sawyer_McFarland">David Sawyer Mac-Farland.</a> JavaScript and JQuery: Interactive Front-End Web Development</li>
-    <li><a href="https://www.goodreads.com/author/show/135171.Jon_Duckett">John Duckett.</a> Web Design with HTML, CSS, JavaScript and JQuery Set</li>
-  </ul>
-  <hr>
-  <h3>Work experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2020-pr.time</td>
-        <td>Camp Boss at Zapsib Gazprom LLC</td>
-      </tr>
-      <tr>
-        <td>2019-2020</td>
-        <td>Camp Boss at Grossmann Group</td>
-      </tr>
-      <tr>
-        <td>2018-2019</td>
-        <td>Camp Boss at South Tambey LNG</td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>Site security specialist at South Tambey LNG</td>
-      </tr>
-      <tr>
-        <td>2017-2017</td>
-        <td>Lead security inspector at Noyabrsk Nefte Spec Stroy LLC</td>
-      </tr>
-      <tr>
-        <td>2002-2016</td>
-        <td>Law enforcement officer with spesial education</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <td>
-    <table cellspacing="10">
-      <tr>
-        <td>HTML</td>
-        <td>🌟🌟🌟</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>🌟</td>
-      </tr>
-      <tr>
-        <td>Photography</td>
-        <td>🌟🌟🌟🌟🌟</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>🌟</td>
-      </tr>
-    </table>
-  </td>
-  <hr>
-  <a href="Hobbies.html">My Hobbies</a><br>
-  <a href="contact.html">Contact me</a>
+  <div class="top-conteiner">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Evgeny.</h1>
+    <h2>a <span class="web">web</span> developer</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="me" src="images/me.svg" alt="me-img">
+      <h2>Hi.</h2>
+      <p class="intro">I'm a web designer/developer based in Tyumen, Russia. I have a passion for web design and love to create for web.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>What can I do.</h2>
+      <div class="skill-row">
+        <img class="me1" src="images/skills.png" alt="me-img">
+        <h3>Design what you want.</h3>
+        <p>I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
+      </div>
+      <div class="skill-row">
+        <img class="me-dev" src="images/developer.png" alt="me-img">
+        <h3>Develop what you need.</h3>
+        <p class="skill-description">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch.</h2>
+      <h3>I’m currently available for freelance work.</h3>
+      <p class="contact-message">Do you have an idea for a website but need some help? Do you play a game but don't really understand the main text and the dialogues? Feel free to contact me.</p>
+      <a class="btn" href="mailto:buninev@yandex.ru">CONTACT ME</a>
+
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/evgeny-bunin-611b35124/" style="color:#11999e;">LinkedIn</a>
+    <a class="footer-link" href="https://www.facebook.com/eugeny.bunin" style="color:#11999e;">facebook</a>
+    <p class="maker">© 2020 Evgeny Bunin.</p>
+  </div>
+
+
 </body>
 
 </html>
